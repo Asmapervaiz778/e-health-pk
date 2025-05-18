@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VitalCare - Your Digital Health Partner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f4f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #e6f4f1;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2b7a78;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #3aafa9;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 3rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #17252a;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      background: #3aafa9;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .cta button {
+      background: #17252a;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VitalCare</h1>
+    <p>Your trusted partner in digital health</p>
+  </header>
+
+  <section class="services">
+    <div class="card">
+      <h3>Online Consultation</h3>
+      <p>Talk to certified doctors anytime, anywhere.</p>
+    </div>
+    <div class="card">
+      <h3>Health Tracker</h3>
+      <p>Monitor your vitals and wellness progress easily.</p>
+    </div>
+    <div class="card">
+      <h3>Medical Records</h3>
+      <p>Access your health documents securely in one place.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Take control of your health today</h2>
+    <button>Get Started</button>
+  </section>
+
+  <footer>
+    &copy; 2025 VitalCare. All rights reserved.
+  </footer>
+</body>
+</html>
